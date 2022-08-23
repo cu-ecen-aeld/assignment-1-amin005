@@ -17,7 +17,7 @@ echo  "${writestr}" > "${writefile}"
 
 if [ $? -eq 0 ]
 then
-  echo "Done "
+ # echo "New file is created!"
   exit 0
 else
   echo "failed" >&2

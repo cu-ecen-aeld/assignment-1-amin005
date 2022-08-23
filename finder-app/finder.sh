@@ -23,13 +23,13 @@ fi
   
   
 
-X=$(grep -rlw  ${searchstr} ${filedir} | wc -l) 
-Y=$(grep -rw  ${searchstr} ${filedir}  | wc -l)
+X=$(grep -rlw $searchstr $filedir  | wc -l) 
+Y=$(grep -rw  $searchstr $filedir  | wc -l)
 
 
 
+  echo "The number of files are ${X} and the number of matching lines are ${Y}"
 
-  echo " The number of files are ${X} and The number of matching lines are ${Y}"
 
 
 
